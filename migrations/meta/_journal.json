@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1684312706166,
+      "tag": "0000_remarkable_katie_power",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1684313093833,
+      "tag": "0001_mute_true_believers",
+      "breakpoints": false
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1684313333317,
+      "tag": "0002_common_tyger_tiger",
+      "breakpoints": false
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1684313670786,
+      "tag": "0003_secret_forge",
+      "breakpoints": false
+    }
+  ]
+}

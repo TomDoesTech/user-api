@@ -1,0 +1,183 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "User API",
+    "dateExported": "2023-05-17T08:03:32.677Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5f4eb36c-c5fe-4bd7-9e68-76c25486d4fb",
+            "colId": "ef71f144-c718-4fd5-874e-e9c14db58c6c",
+            "containerId": "",
+            "name": "Create application",
+            "url": "{{host}}/api/applications",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2023-04-29T21:56:06.725Z",
+            "modified": "2023-05-03T10:47:42.539Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"App three\",\n  \"description\":\"hello\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a1834b3a-fea5-4117-961b-c4ae62c839b6",
+            "colId": "ef71f144-c718-4fd5-874e-e9c14db58c6c",
+            "containerId": "",
+            "name": "Get applications",
+            "url": "http://0.0.0.0:3000/api/applications",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-29T21:55:41.812Z",
+            "modified": "2023-04-29T22:06:13.213Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "",
+                        "value": "/home/tom/projects/media-api/test/mailchimp-6kajEqr84iY-unsplash.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ad7da438-77ec-42c0-996b-c376e70fe555",
+            "colId": "ef71f144-c718-4fd5-874e-e9c14db58c6c",
+            "containerId": "",
+            "name": "Get me",
+            "url": "http://0.0.0.0:3000/api/users/me",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-05-05T08:43:58.471Z",
+            "modified": "2023-05-05T08:44:48.938Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "{{authorization}}"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "",
+                        "value": "/home/tom/projects/media-api/test/mailchimp-6kajEqr84iY-unsplash.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "35e68843-0c17-45db-a2af-e109b688cfd5",
+            "colId": "ef71f144-c718-4fd5-874e-e9c14db58c6c",
+            "containerId": "",
+            "name": "Create user 1",
+            "url": "{{host}}/api/users",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-29T21:55:53.376Z",
+            "modified": "2023-05-03T10:42:08.788Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"{{email}}\",\n  \"name\": \"Jane Doe\",\n  \"password\": \"{{password}}\",\n  \"applicationId\": \"{{applicationId}}\",\n  \"initialUser\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "04983f5e-8ac4-4666-8a3e-937e45d3e644",
+            "colId": "ef71f144-c718-4fd5-874e-e9c14db58c6c",
+            "containerId": "",
+            "name": "Create user 2",
+            "url": "{{host}}/api/users",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-05T08:41:15.855Z",
+            "modified": "2023-05-05T08:47:29.408Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"{{email2}}\",\n  \"name\": \"Second User\",\n  \"password\": \"{{password}}\",\n  \"applicationId\": \"{{applicationId}}\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "724af579-846c-4ca1-b657-ee15b8983e31",
+            "colId": "ef71f144-c718-4fd5-874e-e9c14db58c6c",
+            "containerId": "",
+            "name": "Login",
+            "url": "{{host}}/api/users/login",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2023-05-02T07:59:27.052Z",
+            "modified": "2023-05-14T08:27:40.373Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\",\n  \"applicationId\": \"{{applicationId}}\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5681c22b-e87b-4391-94c6-057567dbeef5",
+            "colId": "ef71f144-c718-4fd5-874e-e9c14db58c6c",
+            "containerId": "",
+            "name": "Create role",
+            "url": "{{host}}/api/roles",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-04-29T21:56:11.563Z",
+            "modified": "2023-05-03T10:52:53.455Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "{{authorization}}"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"applicationId\": \"{{applicationId}}\",\n  \"permissions\": [\n    \"role:read\",\n    \"role:write\"\n  ],\n  \"name\": \"Some role\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f44270d5-013b-4a4c-8d0b-bba15e0414d9",
+            "colId": "ef71f144-c718-4fd5-874e-e9c14db58c6c",
+            "containerId": "",
+            "name": "Assign role to user",
+            "url": "http://0.0.0.0:3000/api/users/roles",
+            "method": "POST",
+            "sortNum": 55000,
+            "created": "2023-05-03T08:55:00.372Z",
+            "modified": "2023-05-14T08:27:37.591Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"applicationId\": \"{{applicationId}}\",\n  \"userId\": \"{{userId}}\",\n  \"roleId\": \"5ebe38d0-ed08-4f90-924e-6684ca9eb0b3\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
