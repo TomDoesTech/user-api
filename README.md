@@ -3,7 +3,7 @@
 ## Sponsor
 <img src="./img/neon.svg" />
 
-Thank you to [Neon](https://neon.tech/) for sponsoring this video!
+Thank you to [Neon](https://bit.ly/tomdoestech) for sponsoring this video!
 
 ## Features
 * Create an application
@@ -23,7 +23,7 @@ Thank you to [Neon](https://neon.tech/) for sponsoring this video!
 ## What you'll need
 * Editor - [VS Code](https://code.visualstudio.com/download)
 * Node.js - [Download](https://nodejs.org/en/download/)
-* A database - [PostgreSQL by Neon](https://neon.tech/)
+* A database - [PostgreSQL by Neon](https://bit.ly/tomdoestech)
 * A REST client - [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
 ## What you will learn
