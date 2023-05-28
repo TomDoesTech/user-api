@@ -59,7 +59,7 @@ export const usersToRoles = pgTable(
       .references(() => applications.id)
       .notNull(),
 
-    roleId: uuid("roledId")
+    roleId: uuid("roleId")
       .references(() => roles.id)
       .notNull(),
 
